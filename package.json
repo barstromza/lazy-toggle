@@ -5,19 +5,19 @@
     "version": "0.0.1",
     "publisher": "yokev",
     "engines": {
-        "vscode": "^1.12.0"
+        "vscode": "^1.11.0"
     },
     "categories": [
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.initClock"
     ],
     "main": "./extension",
     "contributes": {
         "commands": [{
-            "command": "extension.sayHello",
-            "title": "Hello World"
+            "command": "extension.initClock",
+            "title": "Init Clock"
         }]
     },
     "scripts": {
